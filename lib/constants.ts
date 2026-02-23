@@ -1,8 +1,8 @@
 export const SITE = {
-  name:        "Saukat Mill Oil",
+  name:        "Gorwal Mill Oil",
   owner:       "Saukat Ali",
   tagline:     "Pure Mustard Oil from the Heart of India",
-  description: "Saukat Mill Oil — trusted manufacturer and supplier of cold-pressed pure mustard oil and oil cake in India. FSSAI certified. Wholesale & retail supply across India.",
+  description: "Gorwal Mill Oil — trusted manufacturer and supplier of cold-pressed pure mustard oil and oil cake in India. FSSAI certified. Wholesale & retail supply across India.",
   url:         "https://saukatmill.com",
   phone:       "+91-9694929317",
   whatsapp:    "919694929317",
