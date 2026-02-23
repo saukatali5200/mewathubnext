@@ -5,7 +5,6 @@ import { CartProvider } from "@/context/CartContext";
 import { ThemeProvider } from "@/context/ThemeContext";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import ScrollToTop from "@/components/ScrollToTop";
 import ChatBot from "@/components/ChatBot";
 import { SITE } from "@/lib/constants";
@@ -52,7 +51,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               {children}
             </main>
             <Footer />
-            <WhatsAppButton />
             <ChatBot />
             <ScrollToTop />
           </CartProvider>

@@ -84,7 +84,7 @@ export default function ChatBot() {
       {/* Toggle Button */}
       <button
         onClick={() => setOpen((o) => !o)}
-        className="fixed bottom-40 right-6 z-50 w-14 h-14 rounded-full flex items-center justify-center shadow-xl transition-all duration-300 hover:scale-110 hover:shadow-2xl"
+        className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full flex items-center justify-center shadow-xl transition-all duration-300 hover:scale-110 hover:shadow-2xl"
         style={{ background: "var(--accent)", color: "#000" }}
         aria-label="Open Chatbot"
       >
@@ -94,7 +94,7 @@ export default function ChatBot() {
       {/* Chat Window */}
       {open && (
         <div
-          className="fixed bottom-56 right-4 z-50 w-[22rem] max-w-[95vw] rounded-2xl shadow-2xl flex flex-col overflow-hidden"
+          className="fixed bottom-24 right-4 z-50 w-[22rem] max-w-[95vw] rounded-2xl shadow-2xl flex flex-col overflow-hidden"
           style={{
             background: "var(--bg-surface)",
             border: "1px solid var(--border-color)",

@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Droplets, Phone, Mail, MapPin, Shield, ArrowRight } from "lucide-react";
 import { SITE, FOOTER_LINKS } from "@/lib/constants";
+import SocialLinks from "@/components/SocialLinks";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -26,6 +27,10 @@ export default function Footer() {
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full theme-badge">
               <Shield className="w-3.5 h-3.5" />
               <span>FSSAI Certified · GST Registered</span>
+            </div>
+            <div className="mt-5">
+              <p className="theme-text-muted text-xs mb-3 uppercase tracking-widest font-semibold">Follow Us</p>
+              <SocialLinks variant="icon-only" size="md" />
             </div>
           </div>
 
@@ -84,8 +89,9 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t theme-divider mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-3">
+        <div className="border-t theme-divider mt-10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="theme-text-muted text-xs">© {currentYear} {SITE.name}. All rights reserved.</p>
+          <SocialLinks variant="icon-label" size="sm" />
           <div className="flex items-center gap-4 text-xs theme-text-muted">
             <span>GSTIN: {SITE.gst}</span>
             <span>·</span>

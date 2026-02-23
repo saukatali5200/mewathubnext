@@ -8,6 +8,7 @@ import { useCart } from "@/context/CartContext";
 import { NAV_LINKS, SITE } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import ThemeSwitcher from "@/components/ThemeSwitcher";
+import SocialLinks from "@/components/SocialLinks";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -64,6 +65,9 @@ export default function Navbar() {
 
           {/* Right controls */}
           <div className="flex items-center gap-2">
+            <div className="hidden xl:flex items-center mr-1">
+              <SocialLinks variant="icon-only" size="sm" />
+            </div>
             <ThemeSwitcher />
 
             {/* Cart */}
@@ -150,6 +154,10 @@ export default function Navbar() {
               )}
             </button>
           </Link>
+          <div className="mt-5 mb-4">
+            <p className="text-xs theme-text-muted uppercase tracking-widest mb-3 font-semibold">Follow Us</p>
+            <SocialLinks variant="icon-label" size="sm" />
+          </div>
         </div>
       </div>
     </>

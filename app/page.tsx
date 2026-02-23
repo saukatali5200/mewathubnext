@@ -7,6 +7,7 @@ import {
 import { SITE } from "@/lib/constants";
 import { PRODUCTS } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
+import SocialLinks from "@/components/SocialLinks";
 
 export const metadata: Metadata = {
   title: "Pure Mustard Oil Manufacturer & Supplier India",
@@ -202,6 +203,26 @@ export default function HomePage() {
                 </Link>
                 <p className="text-center text-xs theme-text-muted">Usually responds within a few hours</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── SOCIAL MEDIA ──────────────────────────────── */}
+      <section className="section-pad">
+        <div className="container">
+          <div className="text-center mb-12">
+            <span className="theme-badge inline-flex mb-4">Stay Connected</span>
+            <h2 className="text-3xl md:text-4xl font-extrabold theme-text mb-4">Follow Us on Social Media</h2>
+            <p className="theme-text-secondary text-lg max-w-xl mx-auto">Get updates, tips, and behind-the-scenes from our mill. Latest offers, recipes & more!</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 max-w-2xl mx-auto gap-4 mb-10">
+            <SocialLinks variant="full" className="md:col-span-2 grid-cols-2" />
+          </div>
+          <div className="text-center">
+            <div className="inline-flex items-center gap-3 px-6 py-3 rounded-2xl theme-card text-sm theme-text-secondary">
+              <Star className="w-4 h-4 theme-accent" />
+              Share your experience with <strong className="theme-text mx-1">#SaukatMillOil</strong> and tag us!
             </div>
           </div>
         </div>

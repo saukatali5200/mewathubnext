@@ -1,8 +1,8 @@
 export const SITE = {
-  name:        "Gorwal Mill Oil",
+  name:        "Saukat Mill Oil",
   owner:       "Saukat Ali",
   tagline:     "Pure Mustard Oil from the Heart of India",
-  description: "Gorwal Mill Oil — trusted manufacturer and supplier of cold-pressed pure mustard oil and oil cake in India. FSSAI certified. Wholesale & retail supply across India.",
+  description: "Saukat Mill Oil — trusted manufacturer and supplier of cold-pressed pure mustard oil and oil cake in India. FSSAI certified. Wholesale & retail supply across India.",
   url:         "https://saukatmill.com",
   phone:       "+91-9694929317",
   whatsapp:    "919694929317",
@@ -16,6 +16,37 @@ export const SITE = {
   cin:         "N/A",
   maps:        "https://maps.google.com/?q=Khoh+Deeg+Bharatpur+Rajasthan",
 } as const;
+
+export const SOCIAL_LINKS = [
+  {
+    label:    "Facebook",
+    href:     "https://facebook.com/saukatmill",
+    icon:     "facebook",
+    color:    "#1877F2",
+    handle:   "@SaukatMillOil",
+  },
+  {
+    label:    "Instagram",
+    href:     "https://instagram.com/saukatmill",
+    icon:     "instagram",
+    color:    "#E1306C",
+    handle:   "@saukatmill",
+  },
+  {
+    label:    "YouTube",
+    href:     "https://youtube.com/@saukatmill",
+    icon:     "youtube",
+    color:    "#FF0000",
+    handle:   "Saukat Mill Oil",
+  },
+  {
+    label:    "WhatsApp",
+    href:     `https://wa.me/919694929317`,
+    icon:     "whatsapp",
+    color:    "#25D366",
+    handle:   "+91-9694929317",
+  },
+] as const;
 
 export const NAV_LINKS = [
   { label: "Home",        href: "/"           },
