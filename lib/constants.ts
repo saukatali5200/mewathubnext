@@ -1,8 +1,8 @@
 export const SITE = {
-  name:        "Saukat Mill Oil",
+  name:        "Gorwal Oil Mill",
   owner:       "Saukat Ali",
   tagline:     "Pure Mustard Oil from the Heart of India",
-  description: "Saukat Mill Oil — trusted manufacturer and supplier of cold-pressed pure mustard oil and oil cake in India. FSSAI certified. Wholesale & retail supply across India.",
+  description: "Gorwal Oil Mill — trusted manufacturer and supplier of cold-pressed pure mustard oil and oil cake in India. FSSAI certified. Wholesale & retail supply across India.",
   url:         "https://saukatmill.com",
   phone:       "+91-9694929317",
   whatsapp:    "919694929317",
@@ -20,24 +20,24 @@ export const SITE = {
 export const SOCIAL_LINKS = [
   {
     label:    "Facebook",
-    href:     "https://facebook.com/saukatmill",
+    href:     "https://facebook.com/saukatali5200",
     icon:     "facebook",
     color:    "#1877F2",
-    handle:   "@SaukatMillOil",
+    handle:   "@saukatali5200",
   },
   {
     label:    "Instagram",
-    href:     "https://instagram.com/saukatmill",
+    href:     "https://instagram.com/saukatali5200",
     icon:     "instagram",
     color:    "#E1306C",
-    handle:   "@saukatmill",
+    handle:   "@saukatali5200",
   },
   {
     label:    "YouTube",
-    href:     "https://youtube.com/@saukatmill",
+    href:     "https://youtube.com/@saukatali5200",
     icon:     "youtube",
     color:    "#FF0000",
-    handle:   "Saukat Mill Oil",
+    handle:   "@saukatali5200",
   },
   {
     label:    "WhatsApp",
@@ -71,11 +71,7 @@ export const FOOTER_LINKS = {
 };
 
 export const STATES_OF_INDIA = [
-  "Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Chhattisgarh",
-  "Goa","Gujarat","Haryana","Himachal Pradesh","Jharkhand","Karnataka",
-  "Kerala","Madhya Pradesh","Maharashtra","Manipur","Meghalaya","Mizoram",
-  "Nagaland","Odisha","Punjab","Rajasthan","Sikkim","Tamil Nadu","Telangana",
+  "Haryana","Madhya Pradesh","Maharashtra","Punjab","Rajasthan",
   "Tripura","Uttar Pradesh","Uttarakhand","West Bengal",
-  "Andaman and Nicobar Islands","Chandigarh","Delhi","Jammu and Kashmir",
-  "Ladakh","Lakshadweep","Puducherry",
+  "Andaman and Nicobar Islands","Chandigarh","Delhi","Jammu and Kashmir"
 ];
